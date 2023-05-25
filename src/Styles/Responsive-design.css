@@ -1,0 +1,22 @@
+@media only screen and (max-width: 520px) {
+  .dashboard-container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+    grid-template-rows: 2fr;
+    height: 100vh;
+  }
+
+  .footer {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 0;
+  }
+}
